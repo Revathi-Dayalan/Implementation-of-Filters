@@ -152,7 +152,8 @@ plt.axis('off')
 ![r5](https://user-images.githubusercontent.com/96000574/170822274-c72ac7d7-e656-4a0f-bb9d-2241b394ac3b.png)
 ![r6](https://user-images.githubusercontent.com/96000574/170822283-790c30ae-429a-4e7e-9e2b-4c6b200f7530.png)
 
-
+## Result:
+Thus the filters are designed for smoothing and sharpening the images in the spatial domain.
 
 
 
