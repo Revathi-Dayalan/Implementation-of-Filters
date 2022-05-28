@@ -21,7 +21,7 @@ Apply the filters using cv2.filter2D() for each respective filters.
 Plot the images of the original one and the filtered one using plt.figure() and cv2.imshow().
 
 ## Program:
-Developed By :THENMOZHI P Register Number:212221230116 ``
+Developed By Revathi D Register Number:212221240045 ``
 
 1. Smoothing Filters
 i) Using Averaging Filter
@@ -63,13 +63,27 @@ plt.imshow(image3)
 plt.title('Filtered')
 plt.axis('off')
 
-#iii) Using Gaussian Filter
+## iii) Using Gaussian Filter
 Gaussian Blurring 
 ```
-import cv2 import numpy as np import matplotlib.pyplot as plt image1 = cv2.imread('kitten.png') image2=cv2.cvtColor(image1, cv2.COLOR_BGR2RGB) gaussian_blur=cv2.GaussianBlur(src=image2,ksize=(11,11),sigmaX=0,sigmaY=0) plt.figure(figsize = (9,9)) plt.subplot(1,2,1) plt.imshow(image2) plt.title('Orignal') plt.axis('off') plt.subplot(1,2,2) plt.imshow(gaussian_blur) plt.title('Filtered') plt.axis('off')
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt 
+image1 = cv2.imread('kitten.png')
+image2=cv2.cvtColor(image1, cv2.COLOR_BGR2RGB) 
+gaussian_blur=cv2.GaussianBlur(src=image2,ksize=(11,11),sigmaX=0,sigmaY=0)
+plt.figure(figsize = (9,9))
+plt.subplot(1,2,1) 
+plt.imshow(image2)
+plt.title('Orignal') 
+plt.axis('off')
+plt.subplot(1,2,2) 
+plt.imshow(gaussian_blur)
+plt.title('Filtered')
+plt.axis('off')
 
 iv) Using Median Filter
-````
+```
 # Median Blurring
 import cv2 
 import numpy as np
@@ -90,7 +104,7 @@ plt.axis('off')
 
 2. Sharpening Filters
 i) Using Laplacian Kernal
-``
+```
 # Laplacian Kernel
 import cv2 
 import numpy as np
@@ -112,7 +126,7 @@ plt.axis('off')
 
 
 ## ii) Using Laplacian Operator
-``
+```
 Laplacian Operator
 import cv2 
 import numpy as np
