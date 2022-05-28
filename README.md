@@ -1,11 +1,10 @@
-Implementation-of-Filters
-Aim:
+## Aim:
 To implement filters for smoothing and sharpening the images in the spatial domain.
 
-Software Required:
+## Software Required:
 Anaconda - Python 3.7
 
-Algorithm:
+## Algorithm:
 Step1
 Import cv2, matplotlib.py libraries and read the saved images using cv2.imread().
 
@@ -22,7 +21,7 @@ Step5
 Plot the images of the original one and the filtered one using plt.figure() and cv2.imshow().
 
 Program:
-Developed By :Revathi Register Number:2122212401145 ``
+Developed By :THENMOZHI P Register Number:212221230116 ``
 
 1. Smoothing Filters
 i) Using Averaging Filter
@@ -129,15 +128,6 @@ plt.subplot(1,2,2)
 plt.imshow(image3) 
 plt.title('Filtered')
 plt.axis('off')
+## output:
+![r6](https://user-images.githubusercontent.com/96000574/170822154-ffeca6c4-9d43-4443-b959-8a6407faa427.png)
 
-
-
-
-
-OUTPUT:
-![output](.//r1.png)
-![output](.//r2.png)
-![output](.//r3.png)
-![output](.//r4.png)
-![output](.//r5.png)
-![output](.//r6.png)
